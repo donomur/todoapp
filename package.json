@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "wrangler dev --live-reload src/index.tsx",
-    "deploy": "wrangler deploy --minify src/index.tsx"
+    "dev": "wrangler dev --live-reload --compatibility-date 2025-07-31 src/index.tsx",
+    "deploy": "wrangler deploy --minify --compatibility-date 2025-07-31 src/index.tsx"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.7.2",
